@@ -1,5 +1,4 @@
 @import url('./form.css');
-@import url('./simplelight-box.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -9,6 +8,18 @@
 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
+  .sl-wrapper .sl-close {
+    color: #fff;
+  }
+  .sl-wrapper {
+    background-color: rgba(46, 47, 66, 0.8);
+  }
+  .sl-wrapper .sl-counter {
+    color: #fff;
+  }
+  .sl-wrapper .sl-navigation button {
+    color: #fff;
+  }
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
